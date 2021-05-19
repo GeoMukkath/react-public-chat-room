@@ -7,10 +7,19 @@ input {
   margin-left: auto;
   margin-right: auto;
   display: block;
+  border: 5px solid black;
+  border-radius: 0.5vw;
+  width: 300px;
+  height: 50px;
+  font-family: monospace;
 }
 
-button {
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
+input:focus {
+  outline: none;
+}
+
+Button {
+  margin-left: auto !important;
+  margin-right: auto !important;
+  display: block !important;
 }
